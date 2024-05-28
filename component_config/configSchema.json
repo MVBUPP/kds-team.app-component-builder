@@ -14,6 +14,36 @@
       "type": "boolean",
       "title": "Debug",
       "propertyOrder": 2
-    }
+    },
+    "types": {
+      "type": "array",
+      "title": "Types",
+      "description": "Component types",
+      "items": {
+          "enum": [
+              "source",
+              "destination",
+              "application"
+
+          ],
+          "type": "string"
+      },
+      "format": "select",
+      "uniqueItems": true,
+      "propertyOrder": 360
+  },
+    "test_creatable_multi_select": {
+        "propertyOrder": 50,
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "format": "select",
+        "options": {
+          "tags": true
+        },
+        "description": "Multi-select element with no enum => user creates arbitrary values. Comma-separated values are supported.",
+        "uniqueItems": true
+      }
   }
 }
