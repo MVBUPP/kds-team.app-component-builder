@@ -1,0 +1,1 @@
+https://github.com/MVBUPP/kds-team.app-component-builder.git/blob/master/LICENSE.md
